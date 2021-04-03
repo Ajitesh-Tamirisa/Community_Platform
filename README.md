@@ -26,4 +26,4 @@ The main objective of this website is to provide a single platform for communica
 ![](Images/Faculty1.jpeg)
 ![](Images/Faculty2.jpeg)
 ![](Images/Admin1.jpeg)
-![](Images/Admin2.jpeg)
+![](Images/Admin.jpeg)
