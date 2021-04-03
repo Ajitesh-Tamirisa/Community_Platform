@@ -1,1 +1,1 @@
-export const api = ""
+export const api = "https://college-community-platform.herokuapp.com/"
