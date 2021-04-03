@@ -8,6 +8,11 @@ Community Platform is a **ReactJS** web application.Its main objective is to pro
 * Students can post questions as well as answer them in the discussion forums .​
 
 * Information related to future opportunities and career guidance can be shared with all the users.​
+
+* There are 3 different types of users with different levels of access:
+    * Admin : Can view add Faculty, view users and delete any user if required.
+    * Faculty : Can post announcements and opporunities for students
+    * Student : View announcements and opportunities and also interact with othher students in Discussion Forums.
 ### Images
 ![](Images/Signup.jpeg)
 ![](Images/Signin.jpeg)
