@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,300&display=swap');
+
+
+.module {
+    background: 
+        linear-gradient(
+        rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 0.45)
+        ),
+        url(social-communities_eulfrn.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 650px;
+    /* margin: 10px 0 0 10px; */
+    position: relative;
+    float: left;
+    margin-bottom: 40px;
+}
+.sectional {
+    background-size: cover;
+    background-position: right 50% center;
+    margin-top: 0;
+}
+.sectional-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.3)),url(social-communities_eulfrn.jpg);
+}
+.h-300p {
+    height: 600px!important;
+}
+.mid h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 4rem;
+    transform: translate(-50%, -50%);
+}
+.desc{
+    margin: 15px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+}
+.points{
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.links{
+    text-decoration: none;
+}
+hr {
+    display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px;
+}
+.homeCard{
+    margin: 35px 0;
+    padding: 25px;
+    border-radius: 15px;
+    transition: all 0.15s;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+/* .homeCard:hover{
+    transform: scale(1.01);
+} */
+.annPic{
+    width: 50%;
+    height: 100%;
+}
+.homeCard__div{
+    display: flex;
+}
+.header{
+    margin-top:"25px";
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align:"center";
+}
+
+@media screen and (max-width: 1050px) {
+    .homeCard__div {
+      flex-direction: column;
+    }
+    .annPic{
+        order: 1;
+        width: 100%;
+    }
+    .homeCard__div__content{
+        order: 2;
+    }
+  }

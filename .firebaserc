@@ -1,0 +1,23 @@
+{
+  "projects": {
+    "default": "community-platform-2d62b"
+  },
+  "targets": {
+    "community-platform-2d62b": {
+      "hosting": {
+        "main": [
+          "community-platform"
+        ],
+        "testing": [
+          "community-platform-2d62b"
+        ]
+      },
+      "storage": {
+        "main": [
+          "community-platform",
+          "community-platform-2d62b"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+.card{
+  margin: 20px 0;
+  transition: transform .2s;
+}
+.card:hover{
+  transform: scale(1.025);
+}
+.oppCard{
+  margin: 20px 0;
+  transition: transform .2s;
+}
+.content{
+  margin: 10px auto;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.oppsPage{  
+  margin: 10px auto;
+  width: 80%;
+}
+.opps{
+  margin: 10px auto;
+  display: grid;
+  justify-content: center;
+  align-items: stretch;
+}
+.MuiCardHeader-title{
+  margin-right: auto;
+}
+.links{
+  text-decoration: none;
+  color: black;
+}
+.jumbo{
+  width: 100%;
+  padding: 65px 0px;
+  background-color: #130f40;
+background-image: linear-gradient(315deg, #130f40 0%, #000000 80%);
+/* background-color: #000000;
+background-image: linear-gradient(325deg, #FF0000 , #000000 55%); */
+}
+.jumbo__h1{
+  font-size: 40px;
+  color: white;
+}
+.jumbo__p{
+  font-size: 18px;
+  color: white;
+}

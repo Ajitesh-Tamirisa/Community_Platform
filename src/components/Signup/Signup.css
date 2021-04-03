@@ -1,0 +1,28 @@
+.paper{
+    border-radius: 20px;
+}
+.Navbar__logo{
+    color:red;
+}
+.signupPic{
+    width: 85%;
+}
+/* .signupPicDiv{
+    width: 55%;
+} */
+@media screen and (max-width: 800px){
+    .box{
+        box-shadow: none !important;
+        flex-direction: column;
+    }
+    .signupPic{
+        width: 100%;
+    }
+    .signupPicDiv{
+        margin: 10px;
+        order: 1;
+    }
+    .signupDiv{
+        order: 2;
+    }
+}
