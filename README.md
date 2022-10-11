@@ -1,5 +1,5 @@
 # Community Platform
-Community Platform is a **ReactJS** web application.Its main objective is to provide a single platform for communication between students and faculty, students and administration, students and alumni, and also among students. 
+Community Platform is a full stack web application.Its main objective is to provide a single platform for communication between students and faculty, students and administration, students and alumni, and also among students. 
 
 * Community Platform eliminates the need for various social media platforms by providing a single platform which allows students, faculty and administration to interact with each other.​
 
